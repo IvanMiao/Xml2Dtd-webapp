@@ -1,12 +1,14 @@
-# XML to DTD Converter
+# XML to DTD Converter(BETA)
 
 ## Overview
-The XML to DTD Converter is a web-based tool that allows users to convert XML content into Document Type Definition (DTD) format. The application provides two conversion modes: normal and strict. Additionally, it includes a debugging function to help users identify issues in their XML content.
+The XML to DTD Converter is a web-based tool that allows users to convert XML content into Document Type Definition (DTD) format. ~~The application provides two conversion modes: normal and strict. Additionally, it includes a debugging function to help users identify issues in their XML content.~~
+
+This is currently a beta version with some features still under development.
 
 ## Features
 - **User Input**: Users can input XML content directly into the application.
-- **Conversion Modes**: Choose between normal and strict conversion modes for generating DTD.
-- **Debugging Functionality**: Validate XML content against generated DTD rules to identify errors.
+- **Conversion Modes**: Currently only supporting normal conversion mode. Strict mode is still under development and not yet available.
+- **Debugging Functionality**: Validate XML content against generated DTD rules to identify errors.Debug feature is currently under development and not yet available in this beta release.
 - **Responsive Design**: The application is designed to work seamlessly on various devices, including desktops, tablets, and smartphones.
 
 ## Project Structure
@@ -42,10 +44,13 @@ xml-to-dtd-converter
 
 ## Usage
 - Input your XML in the designated text area.
-- Choose between normal and strict conversion modes.
+- Currently, only normal conversion mode is available.
 - Click the convert button to generate the corresponding DTD content
-- Use the debugging feature to validate your XML against the generated DTD.
 - Copy or download the generated DTD as needed.
+
+## Upcoming Features
+- Strict conversion mode
+- Debugging functionality to validate XML against generated DTD
 
 ## License
 This project is licensed under the MIT License.
