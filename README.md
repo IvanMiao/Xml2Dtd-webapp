@@ -32,6 +32,7 @@ xml-to-dtd-converter
 ├── tests
 │   ├── converter.test.js    # Unit tests for conversion functions
 │   └── validators.test.js    # Unit tests for validation version 
+├── index.html
 └── README.md
 ```
 
