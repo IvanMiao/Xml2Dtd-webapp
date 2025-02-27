@@ -23,11 +23,10 @@ xml-to-dtd-converter
 │   │   ├── debugger.js      # Debugging functionality for XML validation
 │   │   ├── ui.js           # User interface management
 │   │   └── validators.js    # XML validation functions
-│   ├── css
-│   │   ├── main.css        # Main styles for the webpage
-│   │   ├── components.css   # Styles for specific UI components
-│   │   └── responsive.css    # Responsive design styles
-│   └── index.html          # Main HTML document
+│   └── css
+│       ├── main.css        # Main styles for the webpage
+│       ├── components.css   # Styles for specific UI components
+│       └── responsive.css    # Responsive design styles
 ├── assets
 │   └── icons
 │       ├── copy.svg        # Icon for copy functionality
