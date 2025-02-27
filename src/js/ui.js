@@ -134,11 +134,13 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Update results and show modal
         const debugOutput = document.getElementById('debug-output');
-        if (results.length === 0) {
+        if (Array.isArray(results) && results.length === 0) {
             debugOutput.innerHTML = '<p class="success">No errors found! XML is valid against the DTD.</p>';
-        } else {
+        } else if (Array.isArray(results)) {
             debugOutput.innerHTML = results.map(result => 
                 `<p class="error">${result}</p>`).join('');
+        } else {
+            debugOutput.innerHTML = '<p class="error">Invalid debug result format.</p>';
         }
         
         modal.style.display = 'block';

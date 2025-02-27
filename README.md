@@ -1,14 +1,16 @@
 # XML to DTD Converter(BETA)
 
 ## Overview
-The XML to DTD Converter is a web-based tool that allows users to convert XML content into Document Type Definition (DTD) format. ~~The application provides two conversion modes: normal and strict. Additionally, it includes a debugging function to help users identify issues in their XML content.~~
+The XML to DTD Converter is a web-based tool that allows users to convert XML content into Document Type Definition (DTD) format. The application provides two conversion modes: normal and strict. Additionally, it includes a debugging function to help users identify issues in their XML content.
 
 This is currently a beta version with some features still under development.
 
 ## Features
 - **User Input**: Users can input XML content directly into the application.
-- **Conversion Modes**: Currently only supporting normal conversion mode. Strict mode is still under development and not yet available.
-- **Debugging Functionality**: Validate XML content against generated DTD rules to identify errors.Debug feature is currently under development and not yet available in this beta release.
+- **Conversion Modes**: 
+    - **Normal Mode**: Generates a flexible DTD that allows variations in element structure.
+    - **Strict Mode**: Generates a precise DTD that enforces element ordering and occurrences.
+- **Debugging Functionality**: Validate XML content against generated DTD rules to identify errors. Debug feature is currently under development.
 - **Responsive Design**: The application is designed to work seamlessly on various devices, including desktops, tablets, and smartphones.
 
 ## Project Structure
@@ -44,13 +46,17 @@ xml-to-dtd-converter
 
 ## Usage
 - Input your XML in the designated text area.
-- Currently, only normal conversion mode is available.
+- Select a conversion mode (Normal or Strict).
 - Click the convert button to generate the corresponding DTD content
 - Copy or download the generated DTD as needed.
+- - Use the Debug button to validate your XML against the generated DTD and identify any issues.
 
-## Upcoming Features
-- Strict conversion mode
-- Debugging functionality to validate XML against generated DTD
+## Conversion Modes
+- **Normal Mode**: Creates a more flexible DTD that allows for variations in element structure.
+- **Strict Mode**: Creates a precise DTD that enforces element ordering and cardinality based on the input XML.
+
+## Debug Functionality
+**Under Dev**
 
 ## License
 This project is licensed under the MIT License.
