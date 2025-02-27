@@ -49,7 +49,7 @@ xml-to-dtd-converter
 - Select a conversion mode (Normal or Strict).
 - Click the convert button to generate the corresponding DTD content
 - Copy or download the generated DTD as needed.
-- - Use the Debug button to validate your XML against the generated DTD and identify any issues.
+- Use the Debug button to validate your XML against the generated DTD and identify any issues.
 
 ## Conversion Modes
 - **Normal Mode**: Creates a more flexible DTD that allows for variations in element structure.
