@@ -6,7 +6,6 @@ The XML to DTD Converter is a web-based tool that allows users to convert XML co
 This is currently a beta version with some features still under development.
 
 ## Features
-- **User Input**: Users can input XML content directly into the application.
 - **Conversion Modes**: 
     - **Normal Mode**: Generates a flexible DTD that allows variations in element structure.
     - **Strict Mode**: Generates a precise DTD that enforces element ordering and occurrences.
@@ -48,7 +47,7 @@ xml-to-dtd-converter
 - Select a conversion mode (Normal or Strict).
 - Click the convert button to generate the corresponding DTD content
 - Copy or download the generated DTD as needed.
-- - Use the Debug button to validate your XML against the generated DTD and identify any issues.
+- Use the Debug button to validate your XML against the generated DTD and identify any issues.
 
 ## Conversion Modes
 - **Normal Mode**: Creates a more flexible DTD that allows for variations in element structure.
